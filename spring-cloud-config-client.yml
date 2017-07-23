@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: cloud
+
+---
+spring:
+  profiles: cloud
+name: barathcloud
+
+---
+spring:
+  profiles: local
+name: barathlocal
