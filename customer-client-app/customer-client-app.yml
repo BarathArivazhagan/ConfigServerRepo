@@ -2,4 +2,7 @@ eureka:
   service:
       host: localhost
       port: 9500
+      
+      
+name: hello
 
